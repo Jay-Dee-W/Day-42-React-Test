@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+
+:root {
+  --primary: rgb(12, 77, 155, 0.7);
+  --secondary: rgb(129, 155, 12, 0.7);;
+  --final: rgba(119, 12, 155, 0.7);
+  --primary-txt: rgb(4, 29, 60);
+  --secondary-txt: rgba(119, 12, 155);
+}
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+font-family:  "Roboto", sans-serif;
+width: 100vw;
+height: 100vh;
+background-image: linear-gradient(155deg,var(--primary),var(--secondary), var(--final));
+color: var(--primary-txt);
+}
